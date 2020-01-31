@@ -1,0 +1,41 @@
+.title{
+	background: #717d7d;
+	color: white;
+	letter-spacing: 0.1em;
+	font-size: 3em;
+	text-align: left;
+	margin-bottom: 0em;
+	padding-left: 2em;
+	padding-top: 1.3em;
+	padding-bottom: 0em;
+}
+.subtitle{
+	/* TODO: learn .css iheritance :) */
+	background: #717d7d;
+	color: white;
+	font-size: 1.5em;
+	text-align: left;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	padding-left: 4em;
+	padding-top: 0em;
+	padding-bottom: 0.5em;
+}
+
+.post-title{
+	font-size:1.5em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	margin-bottom: 0em;
+	color:#717d7d;
+}
+.post-meta{
+	padding-top: 0em;
+	margin-top: 0em;
+	color:#717d7d;
+}
+
+.post-body{
+	max-width: 50em;
+}
+

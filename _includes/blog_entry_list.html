@@ -1,0 +1,13 @@
+<ul>
+  {% for post in site.posts %}
+    <li>
+        {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+
+      <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+      <p class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</p>
+      <div  class="post-body">
+      <p>{{ post.excerpt }}</p>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

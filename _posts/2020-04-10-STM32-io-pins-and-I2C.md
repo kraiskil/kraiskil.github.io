@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: [stm32 i2c]
+title: STM32 IO Pins And I2C
 ---
 I2C data is 'open drain'.
 

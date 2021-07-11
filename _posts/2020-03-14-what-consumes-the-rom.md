@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: [embedded memory]
+title: What consumes the ROM
 ---
 arm-none-eabi/bin/ld: region `rom' overflowed by 462256 bytes
 
